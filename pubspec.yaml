@@ -1,0 +1,10 @@
+name: barbarg_bandar
+description: A new Flet application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flet: ^0.24.1
