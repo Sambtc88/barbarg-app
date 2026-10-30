@@ -31,11 +31,12 @@ jobs:
 
     - name: Build APK with Flet
       run: |
-        flet build apk
+        flet build apk --project . --name "BarbargBandar" --org com.barbarg.bandar
 
     - name: Upload APK for Download
       uses: actions/upload-artifact@v4
       with:
         name: Barbarg-Bandar-APK
         path: build/apk/*.apk
+
 
